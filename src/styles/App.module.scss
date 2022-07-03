@@ -1,0 +1,21 @@
+.App{
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+
+  &__main{
+    background-color: #8855ff;
+    padding: 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 200px));
+
+    gap: 32px;
+  }
+
+  &__footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 32px;
+  }
+}

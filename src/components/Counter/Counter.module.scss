@@ -1,0 +1,42 @@
+.Counter{
+  &__wrapper{
+    min-width: 120px;
+    min-height: 100px;
+    max-height: 120px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 32px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+    border-radius: 12px;
+  }
+
+  &__main{
+    display: flex;
+    justify-content: space-between;
+
+    &_noBtns{
+      justify-content: center;
+    }
+  }
+
+  &__btn{
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  &__removeBtn{
+    padding: 8px;
+    max-width: 80px;
+    justify-self: center;
+  }
+}

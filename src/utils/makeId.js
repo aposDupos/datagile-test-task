@@ -1,0 +1,1 @@
+export const makeId = (last) => `id${++last}`

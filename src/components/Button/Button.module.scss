@@ -1,0 +1,14 @@
+.Button{
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  background-color: #8855ff;
+  &:disabled{
+    cursor: default;
+  }
+}

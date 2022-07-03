@@ -1,0 +1,14 @@
+.Header{
+  &__wrapper{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+&__heading{
+
+}
+  &__btn{
+    padding: 4px 8px;
+  }
+}
